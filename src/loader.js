@@ -1,5 +1,5 @@
 const callbackName = 'recaptchaOnLoad';
-const RECAPTCHA_URL = `https://www.google.com/recaptcha/api.js?onload=${callbackName}&render=explicit`;
+const RECAPTCHA_URL = `https://www.recaptcha.net/recaptcha/api.js?onload=${callbackName}&render=explicit`;
 
 let loaded = false;
 let scriptAttached = false;
